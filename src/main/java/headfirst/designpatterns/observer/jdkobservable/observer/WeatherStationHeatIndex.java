@@ -1,4 +1,6 @@
-package headfirst.designpatterns.observer.weatherobservable;
+package headfirst.designpatterns.observer.jdkobservable.observer;
+
+import headfirst.designpatterns.observer.jdkobservable.subject_observable.WeatherData;
 
 public class WeatherStationHeatIndex {
 

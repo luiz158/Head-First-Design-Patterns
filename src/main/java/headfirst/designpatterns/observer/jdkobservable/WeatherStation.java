@@ -1,4 +1,9 @@
-package headfirst.designpatterns.observer.weatherobservable;
+package headfirst.designpatterns.observer.jdkobservable;
+
+import headfirst.designpatterns.observer.jdkobservable.subject_observable.WeatherData;
+import headfirst.designpatterns.observer.jdkobservable.observer.CurrentConditionsDisplay;
+import headfirst.designpatterns.observer.jdkobservable.observer.ForecastDisplay;
+import headfirst.designpatterns.observer.jdkobservable.observer.StatisticsDisplay;
 
 public class WeatherStation {
 

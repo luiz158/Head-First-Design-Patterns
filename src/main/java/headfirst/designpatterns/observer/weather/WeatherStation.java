@@ -1,12 +1,16 @@
 package headfirst.designpatterns.observer.weather;
 
+import headfirst.designpatterns.observer.weather.observer.CurrentConditionsDisplay;
+import headfirst.designpatterns.observer.weather.observer.ForecastDisplay;
+import headfirst.designpatterns.observer.weather.observer.StatisticsDisplay;
+import headfirst.designpatterns.observer.weather.subject.WeatherData;
+
 public class WeatherStation {
 
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();
 
-        CurrentConditionsDisplay currentDisplay =
-            new CurrentConditionsDisplay(weatherData);
+        CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
         StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
         ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 
