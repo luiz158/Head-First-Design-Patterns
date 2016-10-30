@@ -1,4 +1,4 @@
-package headfirst.designpatterns.strategy;
+package headfirst.designpatterns.strategy.duck;
 
 import headfirst.designpatterns.strategy.behavior.fly.FlyNoWay;
 import headfirst.designpatterns.strategy.behavior.quack.Squeak;

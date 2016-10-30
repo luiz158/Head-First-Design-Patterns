@@ -1,6 +1,7 @@
 package headfirst.designpatterns.strategy;
 
 import headfirst.designpatterns.strategy.behavior.fly.FlyRocketPowered;
+import headfirst.designpatterns.strategy.duck.*;
 
 public class MiniDuckSimulator {
 
