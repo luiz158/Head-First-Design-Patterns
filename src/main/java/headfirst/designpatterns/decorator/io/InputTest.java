@@ -8,12 +8,12 @@ public class InputTest {
 
         try {
             InputStream in =
-                new LowerCaseInputStream(
-                    new BufferedInputStream(
-                        new FileInputStream("test.txt")));
+                    new LowerCaseInputStream(
+                            new BufferedInputStream(
+                                    new FileInputStream("test.txt")));
 
-            while((c = in.read()) >= 0) {
-                System.out.print((char)c);
+            while ((c = in.read()) >= 0) {
+                System.out.print((char) c);
             }
 
             in.close();

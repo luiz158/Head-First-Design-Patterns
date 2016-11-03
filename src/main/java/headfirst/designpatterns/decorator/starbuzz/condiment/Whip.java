@@ -1,5 +1,7 @@
-package headfirst.designpatterns.decorator.starbuzz;
- 
+package headfirst.designpatterns.decorator.starbuzz.condiment;
+
+import headfirst.designpatterns.decorator.starbuzz.Beverage;
+
 public class Whip extends CondimentDecorator {
     Beverage beverage;
  
