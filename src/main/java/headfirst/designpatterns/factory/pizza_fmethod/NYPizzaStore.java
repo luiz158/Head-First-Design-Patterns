@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.pizzafm;
+package headfirst.designpatterns.factory.pizza_fmethod;
 
 public class NYPizzaStore extends PizzaStore {
 

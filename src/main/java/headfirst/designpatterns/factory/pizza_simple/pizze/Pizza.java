@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.pizzas;
+package headfirst.designpatterns.factory.pizza_simple.pizze;
 
 import java.util.ArrayList;
 

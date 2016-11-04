@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.pizzas;
+package headfirst.designpatterns.factory.pizza_simple.pizze;
 
 public class VeggiePizza extends Pizza {
     public VeggiePizza() {

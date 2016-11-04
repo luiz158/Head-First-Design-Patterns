@@ -1,4 +1,6 @@
-package headfirst.designpatterns.factory.pizzas;
+package headfirst.designpatterns.factory.pizza_simple;
+
+import headfirst.designpatterns.factory.pizza_simple.pizze.Pizza;
 
 public class PizzaTestDrive {
  
