@@ -1,5 +1,10 @@
 package headfirst.designpatterns.command.undo;
 
+import headfirst.designpatterns.command.undo.command.*;
+import headfirst.designpatterns.command.undo.invoker.RemoteControlWithUndo;
+import headfirst.designpatterns.command.undo.receiver.CeilingFan;
+import headfirst.designpatterns.command.undo.receiver.Light;
+
 public class RemoteLoader {
  
     public static void main(String[] args) {

@@ -1,5 +1,11 @@
 package headfirst.designpatterns.command.remoteWL;
 
+import headfirst.designpatterns.command.remoteWL.invoker.RemoteControl;
+import headfirst.designpatterns.command.remoteWL.receiver.CeilingFan;
+import headfirst.designpatterns.command.remoteWL.receiver.GarageDoor;
+import headfirst.designpatterns.command.remoteWL.receiver.Light;
+import headfirst.designpatterns.command.remoteWL.receiver.Stereo;
+
 public class RemoteLoader {
  
     public static void main(String[] args) {
