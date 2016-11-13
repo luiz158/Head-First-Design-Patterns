@@ -1,5 +1,10 @@
 package headfirst.designpatterns.adapter.ducks;
 
+import headfirst.designpatterns.adapter.ducks.adapter.TurkeyAdapter;
+import headfirst.designpatterns.adapter.ducks.subject.Duck;
+import headfirst.designpatterns.adapter.ducks.subject.MallardDuck;
+import headfirst.designpatterns.adapter.ducks.subject.WildTurkey;
+
 public class DuckTestDrive {
     public static void main(String[] args) {
         MallardDuck duck = new MallardDuck();

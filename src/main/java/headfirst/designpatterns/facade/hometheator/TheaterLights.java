@@ -1,4 +1,4 @@
-package headfirst.designpatterns.facade.hometheater;
+package headfirst.designpatterns.facade.hometheator;
 
 public class TheaterLights {
     String description;

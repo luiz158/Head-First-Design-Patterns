@@ -1,4 +1,6 @@
-package headfirst.designpatterns.facade.hometheater;
+package headfirst.designpatterns.facade;
+
+import headfirst.designpatterns.facade.hometheator.*;
 
 public class HomeTheaterTestDrive {
     public static void main(String[] args) {
