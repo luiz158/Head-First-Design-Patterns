@@ -1,8 +1,8 @@
-package headfirst.designpatterns.templatemethod.barista;
+package headfirst.designpatterns.templatemethod.barista.template;
 
 public abstract class CaffeineBeverageWithHook {
  
-    final void prepareRecipe() {
+    public final void prepareRecipe() {
         boilWater();
         brew();
         pourInCup();
@@ -11,18 +11,18 @@ public abstract class CaffeineBeverageWithHook {
         }
     }
  
-    abstract void brew();
+    public abstract void brew();
  
-    abstract void addCondiments();
- 
-    void boilWater() {
+    public abstract void addCondiments();
+
+    final void boilWater() {
         System.out.println("Boiling water");
     }
- 
-    void pourInCup() {
+
+    final void pourInCup() {
         System.out.println("Pouring into cup");
     }
- 
+
     boolean customerWantsCondiments() {
         return true;
     }

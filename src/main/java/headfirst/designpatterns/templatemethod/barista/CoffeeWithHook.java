@@ -1,5 +1,7 @@
 package headfirst.designpatterns.templatemethod.barista;
 
+import headfirst.designpatterns.templatemethod.barista.template.CaffeineBeverageWithHook;
+
 import java.io.*;
 
 public class CoffeeWithHook extends CaffeineBeverageWithHook {
