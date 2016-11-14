@@ -1,5 +1,7 @@
-package headfirst.designpatterns.iterator.dinermergeri;
+package headfirst.designpatterns.iterator.dinermergercafe.iterator;
  
+import headfirst.designpatterns.iterator.dinermergercafe.MenuItem;
+
 import java.util.Iterator;
   
 public class DinerMenuIterator implements Iterator<MenuItem> {
@@ -23,7 +25,7 @@ public class DinerMenuIterator implements Iterator<MenuItem> {
             return true;
         }
     }
- 
+
     public void remove() {
         if (position <= 0) {
             throw new IllegalStateException

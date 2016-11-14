@@ -1,4 +1,7 @@
-package headfirst.designpatterns.iterator.dinermergercafe;
+package headfirst.designpatterns.iterator.transition.aggregate;
+
+import headfirst.designpatterns.iterator.transition.iterator.DinerMenuIterator;
+import headfirst.designpatterns.iterator.transition.MenuItem;
 
 import java.util.Iterator;
 
@@ -20,7 +23,7 @@ public class DinerMenu implements Menu {
             "A hot dog, with saurkraut, relish, onions, topped with cheese",
             false, 3.05);
         addItem("Steamed Veggies and Brown Rice",
-            "A medly of steamed vegetables over brown rice", true, 3.99);
+            "Steamed vegetables over brown rice", true, 3.99);
         addItem("Pasta",
             "Spaghetti with Marinara Sauce, and a slice of sourdough bread",
             true, 3.89);

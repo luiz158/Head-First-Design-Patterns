@@ -1,5 +1,7 @@
 package headfirst.designpatterns.iterator.dinermergeri;
 
+import headfirst.designpatterns.iterator.dinermergeri.aggregate.Menu;
+
 import java.util.Iterator;
  
 public class Waitress {

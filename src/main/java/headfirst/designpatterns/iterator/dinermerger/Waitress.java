@@ -1,5 +1,8 @@
 package headfirst.designpatterns.iterator.dinermerger;
 
+import headfirst.designpatterns.iterator.dinermerger.aggregate.Menu;
+import headfirst.designpatterns.iterator.dinermerger.iterator.Iterator;
+
 public class Waitress {
     Menu pancakeHouseMenu;
     Menu dinerMenu;

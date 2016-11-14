@@ -1,4 +1,4 @@
-package headfirst.designpatterns.iterator.transition;
+package headfirst.designpatterns.iterator.transition.aggregate;
 
 import java.util.Iterator;
 

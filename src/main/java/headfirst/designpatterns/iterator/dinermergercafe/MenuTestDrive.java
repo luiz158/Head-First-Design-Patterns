@@ -1,5 +1,9 @@
 package headfirst.designpatterns.iterator.dinermergercafe;
 
+import headfirst.designpatterns.iterator.dinermergercafe.aggregate.CafeMenu;
+import headfirst.designpatterns.iterator.dinermergercafe.aggregate.DinerMenu;
+import headfirst.designpatterns.iterator.dinermergercafe.aggregate.PancakeHouseMenu;
+
 public class MenuTestDrive {
     public static void main(String args[]) {
         PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();

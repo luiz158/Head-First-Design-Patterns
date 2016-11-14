@@ -1,5 +1,8 @@
 package headfirst.designpatterns.iterator.dinermerger;
 
+import headfirst.designpatterns.iterator.dinermerger.aggregate.DinerMenu;
+import headfirst.designpatterns.iterator.dinermerger.aggregate.PancakeHouseMenu;
+
 import java.util.*;
 
 public class MenuTestDrive {

@@ -1,4 +1,6 @@
-package headfirst.designpatterns.iterator.dinermergercafe;
+package headfirst.designpatterns.iterator.dinermergercafe.iterator;
+
+import headfirst.designpatterns.iterator.dinermergercafe.MenuItem;
 
 import java.util.Iterator;
 import java.util.Calendar;

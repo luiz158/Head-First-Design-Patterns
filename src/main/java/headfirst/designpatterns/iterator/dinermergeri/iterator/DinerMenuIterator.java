@@ -1,5 +1,7 @@
-package headfirst.designpatterns.iterator.transition;
+package headfirst.designpatterns.iterator.dinermergeri.iterator;
  
+import headfirst.designpatterns.iterator.dinermergeri.MenuItem;
+
 import java.util.Iterator;
   
 public class DinerMenuIterator implements Iterator<MenuItem> {

@@ -1,12 +1,14 @@
-package headfirst.designpatterns.iterator.dinermerger;
+package headfirst.designpatterns.iterator.dinermerger.iterator;
+
+import headfirst.designpatterns.iterator.dinermerger.MenuItem;
 
 import java.util.ArrayList;
 
-public class PancakeHouseMenuIterator implements Iterator {
+public class ArrayListIterator implements Iterator {
     ArrayList<MenuItem> items;
     int position = 0;
  
-    public PancakeHouseMenuIterator(ArrayList<MenuItem> items) {
+    public ArrayListIterator(ArrayList<MenuItem> items) {
         this.items = items;
     }
  

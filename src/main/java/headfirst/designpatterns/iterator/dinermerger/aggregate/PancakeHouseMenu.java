@@ -1,7 +1,10 @@
-package headfirst.designpatterns.iterator.transition;
+package headfirst.designpatterns.iterator.dinermerger.aggregate;
+
+import headfirst.designpatterns.iterator.dinermerger.iterator.Iterator;
+import headfirst.designpatterns.iterator.dinermerger.MenuItem;
+import headfirst.designpatterns.iterator.dinermerger.iterator.PancakeHouseMenuIterator;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class PancakeHouseMenu implements Menu {
     ArrayList<MenuItem> menuItems;
@@ -20,7 +23,7 @@ public class PancakeHouseMenu implements Menu {
             2.99);
  
         addItem("Blueberry Pancakes",
-            "Pancakes made with fresh blueberries, and blueberry syrup",
+            "Pancakes made with fresh blueberries",
             true,
             3.49);
  
@@ -41,9 +44,13 @@ public class PancakeHouseMenu implements Menu {
         return menuItems;
     }
   
-    public Iterator<MenuItem> createIterator() {
-        return menuItems.iterator();
+    public Iterator createIterator() {
+        return new PancakeHouseMenuIterator(menuItems);
     }
   
+    public String toString() {
+        return "Objectville Pancake House Menu";
+    }
+
     // other menu methods here
 }

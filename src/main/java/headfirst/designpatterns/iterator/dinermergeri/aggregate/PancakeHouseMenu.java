@@ -1,4 +1,6 @@
-package headfirst.designpatterns.iterator.dinermergercafe;
+package headfirst.designpatterns.iterator.dinermergeri.aggregate;
+
+import headfirst.designpatterns.iterator.dinermergeri.MenuItem;
 
 import java.util.ArrayList;
 import java.util.Iterator;
