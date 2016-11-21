@@ -1,4 +1,4 @@
-package headfirst.designpatterns.state.gumballstate;
+package headfirst.designpatterns.state.gumballstate.state;
 
 public interface State {
  

@@ -1,6 +1,9 @@
-package headfirst.designpatterns.state.gumballstate;
+package headfirst.designpatterns.state.gumballstate.state;
 
 //import java.util.Random;
+
+import headfirst.designpatterns.state.gumballstate.GumballMachine;
+import headfirst.designpatterns.state.gumballstate.state.State;
 
 public class HasQuarterState implements State {
     GumballMachine gumballMachine;
