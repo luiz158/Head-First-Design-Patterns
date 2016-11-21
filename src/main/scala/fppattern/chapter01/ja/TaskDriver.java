@@ -1,4 +1,4 @@
-package fppattern.chapter01;
+package fppattern.chapter01.ja;
 
 import java.util.ArrayList;
 import java.util.List;

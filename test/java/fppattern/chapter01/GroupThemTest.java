@@ -7,6 +7,7 @@ import static org.junit.Assert.assertThat;
 import java.util.List;
 
 import com.google.common.collect.Lists;
+import fppattern.chapter01.ja.GroupThem;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package fppattern.chapter01
+package fppattern.chapter01.sc
 
 /**
   * Created by zyong on 2016/11/21.
