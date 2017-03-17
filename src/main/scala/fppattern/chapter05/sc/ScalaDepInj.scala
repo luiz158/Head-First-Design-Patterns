@@ -2,8 +2,7 @@ package fppattern.chapter05.sc
 
 object ScalaDepInj extends App {
 
-  abstract class Animal(val rating: Int, var inoculated:
-  Boolean = false) {
+  abstract class Animal(val rating: Int, var inoculated:Boolean = false) {
     def name(): String
 
     def alreadyInoculated() = inoculated
@@ -51,7 +50,7 @@ object ScalaDepInj extends App {
   }
 
   // driver
-  val h = new Horse(1) with ChoosyVet with Inoculate // 4
+  val h = new Horse(1) with Inoculate with ChoosyVet// 4
 
   h.giveInoculation() // prints message
   h.giveInoculation() // filtered out
